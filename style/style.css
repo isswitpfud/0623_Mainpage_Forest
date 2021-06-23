@@ -1,0 +1,224 @@
+@charset"UTF-8";
+@import url(reset.css);
+
+body {
+    background-color: #eee;
+}
+
+div#wrap {
+    width: 1370px;
+    margin: 10px auto;
+}
+
+#main {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#main #header {
+    height: 90px;
+    line-height: 80px;
+    text-align: center;
+}
+
+#main #gnbUl {
+    font-size: 18px;
+    color: #888;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+#main .gnbLi {
+    /*text-align: center;*/
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#main .gnbLi a{
+    color: #888;
+    width: 100%;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+}
+#main #gnbMenu .selected{
+    color: #fff;
+    background-color: #16a840;
+}
+
+#main .gnbLi:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+#articleAll {
+    width: 1170px;
+    text-align: center;
+    align-items: center;
+}
+
+#mainArticle {
+/*
+    height: 330px;
+*/
+}
+
+#mainArticle .article {
+    margin: 20px 0;
+    width: 265px;
+/*
+    height: 270px;
+*/
+    border: 1px solid #ddd;
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#mainArticle .article:not(:last-child) {
+    margin-right: 29px;
+}
+
+#articleTitle, #articleTitle02, #articleTitle03, #articleTitle04{
+    padding: 15px 15px 10px 15px;
+}
+#mainArticle .article h3{
+    padding-right: 10px;
+    font-size: px;
+    font-weight: bold;
+    color: #16a840;
+}
+#mainArticle .article p{
+    padding: 0 15px 5px 15px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 33px;
+}
+
+#mainArticle .img {
+    padding: 10px;
+    margin: 0 10px ;
+    text-align: center;
+    line-height: 330px;
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#contents {
+    justify-content: space-between;
+}
+
+#contents > #article {
+    padding: 0 30px;
+    margin-right: 25px;
+    width: 885px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#contents #title {
+    justify-content: space-between;
+}
+
+#contents #btn button {
+    color: #444;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 25px 10px;
+    border: none;
+    background-color: #fff;
+}
+#contents #title{
+    border-bottom: 1px solid #aaa;
+}
+#contents .notice {
+    color: #f43e3e;
+    border-bottom: 5px solid #f43e3e;
+}
+
+#contents #moreImage {
+    align-items: right;
+    line-height: 75px;
+}
+#dateAll{
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+#dateArticle1 #date1{
+    padding-right: 20px;
+}
+#dateArticle1 #date1, #date2{
+    width: 420px;
+    height: 120px;
+    padding-bottom: 15px;
+}
+#dateArticle2 #date3, #date4{
+    width: 420px;
+    height: 120px;
+
+}
+#contents .dateTitle{
+    width: 90px;
+    height: 90px;
+    background-color: #eee;
+    border-radius: 50px;
+
+}
+#contents .dateNub{
+    padding-top: 23px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#contents .dateNub span{
+    color: #ef6363;
+    font-size: 28px;
+    font-weight: bold;
+}
+.dateContents{
+    padding: 15px 0px 10px 5px;
+}
+.dateContents > h3{
+    padding-bottom: 13px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dateContents > p{
+    font-size: 13px;
+}
+
+#contents #notice {
+    padding-bottom: 40px;
+    width: 450px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#contents #notice #image img{
+    padding-right: 8px;
+}
+#contents #notice #noticeContents{
+    padding: 25px;
+    justify-content: space-between;
+}
+
+#contents #notice #noticeContents p{
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
