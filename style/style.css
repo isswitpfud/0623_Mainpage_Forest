@@ -39,7 +39,7 @@ div#wrap {
     flex: 1px;
 }
 
-#main .gnbLi a{
+#main .gnbLi a {
     color: #888;
     width: 100%;
     height: 45px;
@@ -47,7 +47,8 @@ div#wrap {
     text-align: center;
     line-height: 45px;
 }
-#main #gnbMenu .selected{
+
+#main #gnbMenu .selected {
     color: #fff;
     background-color: #16a840;
 }
@@ -63,7 +64,7 @@ div#wrap {
 }
 
 #mainArticle {
-/*
+    /*
     height: 330px;
 */
 }
@@ -85,30 +86,37 @@ div#wrap {
     margin-right: 29px;
 }
 
-#articleTitle01, #articleTitle02, #articleTitle03, #articleTitle04{
+#articleTitle01,
+#articleTitle02,
+#articleTitle03,
+#articleTitle04 {
     padding: 15px 15px 0px 15px;
     align-items: center;
 }
-#mainArticle .article h3{
+
+#mainArticle .article h3 {
     padding-right: 10px;
     font-size: 17px;
     font-weight: bold;
     color: #16a840;
 }
-#mainArticle .article p{
+
+#mainArticle .article p {
     padding-left: 15px;
     font-size: 13px;
     text-align: left;
     line-height: 42px;
 }
-#mainArticle .article adress{
+
+#mainArticle .article adress {
     padding: 10px 0px 11px 13px;
     font-size: 13px;
     text-align: left;
     display: block;
 
 }
-#mainArticle .article hr{
+
+#mainArticle .article hr {
     border: none;
     width: 240px;
     padding-left: 13px;
@@ -117,7 +125,7 @@ div#wrap {
     display: inline-block;
 }
 
-#mainArticle .article li{
+#mainArticle .article li {
     padding-left: 13px;
     font-size: 13px;
     display: block;
@@ -128,7 +136,7 @@ div#wrap {
 #mainArticle .img {
     height: auto;
     padding: 10px;
-    margin: 0 10px ;
+    margin: 0 10px;
     text-align: center;
     line-height: 330px;
 
@@ -161,11 +169,14 @@ div#wrap {
     padding: 25px 10px 20px 10px;
     border: none;
     background-color: #fff;
+    align-items: center;
 }
-#contents #btn button:first-child{
+
+#contents #btn button:first-child {
     border-bottom: 4px solid #f43e3e;
 }
-#contents #title{
+
+#contents #title {
     border-bottom: 1px solid #aaa;
 }
 
@@ -174,25 +185,32 @@ div#wrap {
     align-items: right;
     line-height: 75px;
 }
-#dateAll{
-    padding: 20px 0px;
+
+#dateAll {
+    padding: 20px 0px 30px 0px;
     justify-content: space-between;
 }
 
-#dateArticle1 #date1{
-    padding-right: 20px;
-}
-#dateArticle1 #date1, #date2{
-    width: 425px;
-    height: 125px;
-    padding-bottom: 25px;
-}
-#dateArticle2 #date3, #date4{
-    width: 425px;
-    height: 120px;
 
+#dateArticle1 #date1,
+#date2 {
+    width: 415px;
+    height: 125px;
+    padding-bottom: 23px;
 }
-#contents .dateTitle{
+
+#dateArticle2 #date3,
+#date4 {
+    width: 415px;
+}
+
+#dateArticle2,
+#dateArticle1 {
+    width: 840px;
+    justify-content: space-between;
+}
+
+#contents .dateTitle {
     margin-top: 9px;
     width: 90px;
     height: 90px;
@@ -201,27 +219,29 @@ div#wrap {
     border-radius: 50px;
 }
 
-#contents .dateNub{
+#contents .dateNub {
     padding-top: 23px;
     line-height: 22px;
     text-align: center;
 }
 
-#contents .dateNub span{
+#contents .dateNub span {
     color: #ef6363;
     font-size: 28px;
     font-weight: bold;
 }
-.dateContents{
+
+.dateContents {
     padding: 15px 0px 10px 5px;
 }
-.dateContents > h3{
-    padding-bottom: 11px;
+
+.dateContents > h3 {
+    padding-bottom: 10px;
     font-weight: bold;
     font-size: 18px;
 }
 
-.dateContents p{
+.dateContents p {
     font-size: 13px;
     line-height: 20px
 }
@@ -233,17 +253,18 @@ div#wrap {
     background-color: #fff;
     border-radius: 10px;
 }
-#contents #notice #noticeContents h2{
+
+#contents #notice #noticeContents h2 {
     color: #000;
     font-size: 22px;
     font-weight: bold;
 }
-#contents #notice #image img{
+
+#contents #notice #image img {
     padding-right: 8px;
 }
-#contents #notice #noticeContents{
+
+#contents #notice #noticeContents {
     padding: 25px;
     justify-content: space-between;
 }
-
-
